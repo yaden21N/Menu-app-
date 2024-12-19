@@ -1,0 +1,5 @@
+# Changes made from Part 2
+The new app version removed the welcome screen to focus on showing menu items on the home screen, creating a more efficient user experience. The application currently has three primary screens: Home, AddMenu, and FilterMenu, with the starting screen being Home. New features include calculating average prices for starters, main courses, and desserts on the Home screen, a FilterMenuScreen for filtering by course, and a way to add or delete menu items on the AddMenuScreen. Replacing individual state variables with a consolidated menuItems array has greatly enhanced data management, making manipulation and data sharing between screens much easier. Moreover, supporting functions such as calculateAveragePrices break down logic into modules, while passing state through navigation (using route.params) improves communication between screens. Unnecessary input verifications have been removed, guaranteeing smooth and effective input management throughout the application.
+
+## Link to Video Demonstration
+[Youtube Link](https://youtu.be/k_0KXxMxNdk)
